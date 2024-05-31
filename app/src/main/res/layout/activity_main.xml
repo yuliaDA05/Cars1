@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/purple"
+        />
+    <TextView
+        android:id="@+id/etIAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="60dp"
+        android:text="@string/myname"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

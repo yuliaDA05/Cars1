@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Машинки\n</string>
+    <string name="home">Домой\n</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="enter">Начать</string>
+    <string name="myname">Дойнеко Юлия  Вариант 1</string>
+    <string name="name">модель</string>
+    <string name="number">номер</string>
+    <string name="text_param">Параметры</string>
+    <string name="year">год выпуска</string>
+    <string name="save">сохранить</string>
+    <string name="btnContinue">продолжить</string>
+    <string name="incorrect_value">неверное значение</string>
+    <string name="insert_error">ошибка</string>
+    <string name="insert_success">успешная вставка</string>
+</resources>
